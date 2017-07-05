@@ -1,10 +1,10 @@
 language: node_js
 node_js:
   - "7"
-jobs:
-  include:
+# jobs:
+#   include:
   # - stage: lint
   #   script:
   #     - yarn lint
-  - stage: node_js unit tests
-    script: yarn test
+  # - stage: node_js unit tests
+  #   script: yarn test
