@@ -6,5 +6,5 @@ jobs:
   # - stage: lint
   #   script:
   #     - yarn lint
-  # - stage: node_js unit tests
-  #   script: yarn test
+  - stage: node_js unit tests
+    script: yarn test
